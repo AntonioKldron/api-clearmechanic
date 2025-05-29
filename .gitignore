@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# If using Django migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python tooling
+*.env
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+site/
+
+# Coverage and testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Local Git files
+*.orig
+
+# System config
+*.swp
+
+# DockerMakeFile
+.dockerignore
+.env.template
+docker-compose.yml
+Dockerfile
+Makefile
+setup-dockerization.sh
+setup-webhook.sh
+setup-webhook.sh.sig
