@@ -16,7 +16,7 @@ def index(request):
         }}
 
         body {{
-            background-image: radial-gradient(circle, #004b75, #001c26);
+            background: radial-gradient(#01579b,#1f1013);
             display: flex;
             height: 100vh;
             overflow: hidden;
@@ -125,7 +125,7 @@ def index(request):
         #head5 {{ animation: fadeOut 5s ease-in 22s forwards; }}
         #head6 {{ 
             animation: finalFade 5s ease-in 27s forwards; 
-            font-size: 5vw; font-size: 10vw;
+            font-size: 5vw; font-size: 12vw;
         }}
         
         .header-container {{

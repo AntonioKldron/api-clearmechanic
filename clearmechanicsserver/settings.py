@@ -121,5 +121,5 @@ REST_FRAMEWORK = {
 }
 
 INTERFAZ_NAME = 'Servicios'
-URL_DOCUMENTATION = 'https://documenter.getpostman.com/view/11003363/2s83YYG4vV'
+URL_DOCUMENTATION = 'https://documenter.getpostman.com/view/35017536/2sB2qfBKZz'
 MAX_NUMBER_LOGS = 2000
