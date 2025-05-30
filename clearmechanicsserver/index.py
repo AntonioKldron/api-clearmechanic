@@ -11,12 +11,12 @@ def index(request):
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #dfe2e6;
         }}
 
         body {{
-            background: radial-gradient(#01579b,#1f1013);
+            background: radial-gradient(#01579b,#0099FF);
             display: flex;
             height: 100vh;
             overflow: hidden;
@@ -107,7 +107,6 @@ def index(request):
             top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Roboto', sans-serif;
             font-weight: 200;
             color: white;
             font-size: 3vw;
